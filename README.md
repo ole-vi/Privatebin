@@ -15,6 +15,10 @@ PrivateBin docker image (Tested on amd64 and arm64)
 
 `docker build -t privatebin .`
 
+1. Create a docker container
+
+`docker run -p 8080:80 -d --name privatebin privatebin:latest`
+
 ## How to make a customerised image?
 
 
