@@ -27,9 +27,7 @@ docker run -p 8080:80 -d --name privatebin privatebin:latest
 You need to download PrivateBin from official site and change setting.
 
 1. Clone this repository and `cd` to the folder.
-1. Download PrivateBin image
-  1. Go to [PrivateBin GitHub account](https://github.com/PrivateBin/PrivateBin/releases) and download the latest image.
-  1. Expand the PrivateBin file and move it in the folder
+1. Download PrivateBin the latest image
 
 
 
