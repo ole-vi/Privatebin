@@ -1,12 +1,14 @@
 # PrivateBin for Docker
 
-PrivateBin docker image (Tested on amd64 and arm64)
+PrivateBin docker image (Tested on arm64)
 
 ## How to use?
 
 1. Multiarchitecture Docker image is already at docker hub at `hirotochigi/treehouses-privatebin`. 
 
-`docker run -p 8080:80 -d --name privatebin privatebin:latest`
+```
+docker run -p 8080:80 -d --name privatebin hirotochigi/treehouses-privatebin:arm64
+```
 
 ## How to make a default image yourself ?
 
@@ -20,7 +22,16 @@ docker build -t privatebin .
 docker run -p 8080:80 -d --name privatebin privatebin:latest
 ```
 
-## How to make a customerised image?
+## How to make a custom image?
+
+You need to download PrivateBin from official site and change setting.
+
+1. Clone this repository and `cd` to the folder.
+1. Download PrivateBin image
+  1. Go to [PrivateBin GitHub account](https://github.com/PrivateBin/PrivateBin/releases) and download the latest image.
+  1. Expand the PrivateBin file and move it in the folder
+
+
 
 
 
