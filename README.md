@@ -21,23 +21,3 @@ docker build -t privatebin .
 ```
 docker run -p 8080:80 -d --name privatebin privatebin:latest
 ```
-
-## How to make a custom image?
-
-You need to download PrivateBin from official site and change setting.
-
-1. Clone this repository and `cd` to the folder.
-1. Clone PrivateBin repository.
-```
-git clone https://github.com/hiroTochigi/PrivateBin
-```
-
-
-
-
-
-
-
-
-
-
