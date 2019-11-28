@@ -14,6 +14,9 @@ docker run -p 8080:80 -d --name privatebin hirotochigi/treehouses-privatebin:arm
 
 1. Clone this repository and `cd` to the folder.
 1. Build a docker image.
+```
+docker build -t privatebin .
+```
 1. Create a docker container
 
 `
