@@ -1,4 +1,4 @@
-FROM php:apache
+FROM treehouses/php-apache:latest
 
 RUN curl -L https://github.com/hiroTochigi/PrivateBin/archive/1.3.1.zip > /var/www/1.3.1.zip && \
     apt-get update && \
