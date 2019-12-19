@@ -1,10 +1,10 @@
-# PrivateBin for Docker
+# privatebin for Docker
 
-PrivateBin docker image (Tested on arm)
+privatebin docker image (Tested on arm)
 
 ## How to use?
 
-1. Multiarchitecture Docker image is already at docker hub at `hirotochigi/treehouses-privatebin`. 
+1. Multiarchitecture Docker image is already at docker hub at `treehouses/privatebin`. 
 
 ```
 docker run -p 8080:80 -d --name privatebin treehouses/privatebin:latest
