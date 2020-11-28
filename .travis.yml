@@ -14,7 +14,7 @@ script:
 - build_image "treehouses/php-apache:latest" arm "treehouses/privatebin"
 - build_image "treehouses/php-apache:latest" amd64 "treehouses/privatebin"
 - build_image "treehouses/php-apache:latest" arm64 "treehouses/privatebin"
-- flag=false
+- flag="true"
 before_deploy:
 - deploy_image "treehouses/privatebin" arm
 - deploy_image "treehouses/privatebin" amd64
