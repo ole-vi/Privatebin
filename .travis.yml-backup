@@ -32,7 +32,7 @@ script:
 - build_image "treehouses/php-apache:latest" arm "treehouses/privatebin"
 - build_image "treehouses/php-apache:latest" amd64 "treehouses/privatebin"
 - build_image "treehouses/php-apache:latest" arm64 "treehouses/privatebin"
-- flag=$(compare "treehouses/php-apache@"$php_apache_arm_sha "treehouses/privatebin@"$privatebin_arm_sha "treehouses/php-apache@"$php_apache_amd64_sha "treehouses/privatebin@"$privatebin_amd64_sha "treehouses/php-apache@"$php_apache_arm64_sha "treehouses/privatebin@"$privatebin_arm64_sha "treehouses/privatebin:latest" "treehouses/privatebin-tags:amd64")
+- flag=$(compare "treehouses/php-apache@"$php_apache_arm_sha "treehouses/privatebin@"$privatebin_arm_sha "treehouses/php-apache@"$php_apache_amd64_sha "treehouses/privatebin@"$privatebin_amd64_sha "treehouses/php-apache@"$php_apache_arm64_sha "treehouses/privatebin@"$privatebin_arm64_sha )
 - echo $flag
 #- flag=false
 before_deploy:
